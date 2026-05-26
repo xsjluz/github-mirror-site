@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GitHub 镜像站 — 全球最大的开发者社区。发现、分享并构建更好的软件。">
+    <meta name="keywords" content="GitHub, 镜像, 开发者, 开源, 代码托管">
+    <meta property="og:title" content="GitHub 镜像站">
+    <meta property="og:description" content="全球最大的开发者社区 — 发现、分享并构建更好的软件。">
+    <meta property="og:type" content="website">
+    <title>GitHub 镜像站 · Build and ship software on a single, collaborative platform</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='white' d='M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z'/></svg>">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-left">
+                <a href="#" class="logo" aria-label="GitHub 首页">
+                    <svg height="32" viewBox="0 0 16 16" width="32" class="logo-icon">
+                        <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                    <span class="logo-text">GitHub</span>
+                </a>
+            </div>
+
+            <!-- Desktop nav -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#" class="nav-link">Product</a></li>
+                <li><a href="#" class="nav-link">Solutions</a></li>
+                <li><a href="#" class="nav-link">Open Source</a></li>
+                <li><a href="#" class="nav-link">Pricing</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <div class="search-box">
+                    <svg class="search-icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"/>
+                    </svg>
+                    <input type="text" class="search-input" placeholder="搜索或跳转到...">
+                </div>
+                <a href="#" class="btn btn-outline">Sign in</a>
+                <a href="#" class="btn btn-primary">Sign up</a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="菜单">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg-glow"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-title-line">Let's build from here,</span>
+                    <span class="hero-title-line gradient-text">together.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    全球最大的开发者社区。在单一协作平台上发现、分享并构建更好的软件。
+                </p>
+                <div class="hero-cta">
+                    <div class="email-signup">
+                        <input type="email" class="email-input" placeholder="Email address">
+                        <button class="btn btn-primary btn-large">Sign up for GitHub</button>
+                    </div>
+                </div>
+                <p class="hero-note">已有账号？<a href="#" class="link">登录</a></p>
+            </div>
+
+            <!-- Floating code cards -->
+            <div class="hero-visual">
+                <div class="code-card card-1">
+                    <div class="card-dots"><span></span><span></span><span></span></div>
+                    <pre><code><span class="code-keyword">import</span> { Octokit } <span class="code-keyword">from</span> <span class="code-string">"@octokit/rest"</span>;
+
+<span class="code-keyword">const</span> <span class="code-var">octokit</span> = <span class="code-keyword">new</span> Octokit();
+
+<span class="code-keyword">await</span> octokit.rest.issues.create({
+  <span class="code-prop">owner</span>: <span class="code-string">"vercel"</span>,
+  <span class="code-prop">repo</span>: <span class="code-string">"next.js"</span>,
+  <span class="code-prop">title</span>: <span class="code-string">"🚀 Feature: "</span>,
+});</code></pre>
+                </div>
+                <div class="code-card card-2">
+                    <div class="card-dots"><span></span><span></span><span></span></div>
+                    <pre><code><span class="code-comment"># Build & Deploy</span>
+<span class="code-prop">name</span>: CI Pipeline
+
+<span class="code-prop">on</span>:
+  <span class="code-prop">push</span>:
+    <span class="code-prop">branches</span>: [ <span class="code-string">"main"</span> ]
+
+<span class="code-prop">jobs</span>:
+  <span class="code-prop">build</span>:
+    <span class="code-prop">runs-on</span>: ubuntu-latest
+    <span class="code-prop">steps</span>:
+      - <span class="code-prop">uses</span>: actions/checkout@v4
+      - <span class="code-prop">run</span>: npm ci && npm test</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="100">0</span><span class="stat-suffix">M+</span>
+                    <p class="stat-label">开发者</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="420">0</span><span class="stat-suffix">M+</span>
+                    <p class="stat-label">仓库</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="90">0</span><span class="stat-suffix">%</span>
+                    <p class="stat-label">财富500强使用</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2 class="section-title">加速软件开发的每一个环节</h2>
+            <p class="section-subtitle">GitHub 为你的整个工作流提供 AI 驱动的开发工具</p>
+
+            <div class="features-grid">
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <h3>GitHub Actions</h3>
+                    <p>自动化你的构建、测试和部署流程。直接在仓库中运行 CI/CD。</p>
+                    <a href="#" class="feature-link">了解更多 →</a>
+                </div>
+
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+                        </svg>
+                    </div>
+                    <h3>GitHub Codespaces</h3>
+                    <p>在几秒内获得完整的、可配置的开发环境。随时随地开始编码。</p>
+                    <a href="#" class="feature-link">了解更多 →</a>
+                </div>
+
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3>GitHub Advanced Security</h3>
+                    <p>内置代码扫描、密钥扫描和依赖审查。让你的代码更加安全。</p>
+                    <a href="#" class="feature-link">了解更多 →</a>
+                </div>
+
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4-4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+                        </svg>
+                    </div>
+                    <h3>GitHub Discussions</h3>
+                    <p>在代码仓库内进行社区讨论。提问、分享想法、建立连接。</p>
+                    <a href="#" class="feature-link">了解更多 →</a>
+                </div>
+
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3>GitHub Projects</h3>
+                    <p>灵活的项目管理工具，与你的代码紧密集成。像开发代码一样管理项目。</p>
+                    <a href="#" class="feature-link">了解更多 →</a>
+                </div>
+
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                        </svg>
+                    </div>
+                    <h3>GitHub Copilot</h3>
+                    <p>AI 编程助手，在你编码时提供实时建议。让你专注解决更大的问题。</p>
+                    <a href="#" class="feature-link">了解更多 →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials / Trust -->
+        <section class="testimonials">
+            <h2 class="section-title">全球超过 1 亿开发者信赖</h2>
+            <div class="testimonial-carousel" id="testimonialCarousel">
+                <div class="testimonial active">
+                    <blockquote>"GitHub Actions 让我们的 CI/CD 流水线从小时级缩短到了分钟级。"</blockquote>
+                    <cite>
+                        <strong>某大型科技公司</strong>
+                        <span>DevOps 团队负责人</span>
+                    </cite>
+                </div>
+                <div class="testimonial">
+                    <blockquote>"Copilot 帮助我们的团队将编码速度提升了 55%，代码质量也有显著提高。"</blockquote>
+                    <cite>
+                        <strong>某金融科技公司</strong>
+                        <span>技术副总裁</span>
+                    </cite>
+                </div>
+                <div class="testimonial">
+                    <blockquote>"GitHub 是我们开源项目的核心。它帮助我们从 2 个贡献者增长到了 500+。"</blockquote>
+                    <cite>
+                        <strong>某开源基金会</strong>
+                        <span>社区运营总监</span>
+                    </cite>
+                </div>
+            </div>
+            <div class="carousel-dots" id="carouselDots"></div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <h2 class="cta-title">准备好开始了吗？</h2>
+            <p class="cta-subtitle">免费创建一个账户，加入全球最大的开发者社区。</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary btn-large">免费注册 GitHub</a>
+                <a href="#" class="btn btn-outline btn-large">探索企业方案</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Enterprise</a></li>
+                    <li><a href="#">Customer Stories</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Platform</h4>
+                <ul>
+                    <li><a href="#">Developer API</a></li>
+                    <li><a href="#">Partners</li>
+                    <li><a href="#">GitHub Desktop</a></li>
+                    <li><a href="#">GitHub Mobile</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Status</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <svg height="24" viewBox="0 0 16 16" width="24">
+                    <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                </svg>
+            </div>
+            <div class="footer-links">
+                <span>&copy; 2026 GitHub Mirror. Inspired by GitHub, Inc.</span>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">Status</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
